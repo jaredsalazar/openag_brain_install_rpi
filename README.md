@@ -14,3 +14,16 @@ file.
     git clone https://github.com/OpenAgInitiative/openag_brain_install_rpi.git
     cd openag_brain_install_rpi
     ./install.sh
+    
+Run the project
+----------------
+
+After installing completely, we need to put this two commands every start of the project
+
+    source ~/opt/ros/indigo/setup.bash
+    source ~/catkin_ws/devel/setup.bash
+    
+then, put this command to run the project.
+
+    rosrun openag_brain main
+
